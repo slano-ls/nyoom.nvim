@@ -63,6 +63,12 @@ Nyoom works best with a modern terminal with [Truecolor](https://github.com/term
 Nyoom is comprised of optional [modules](https://github.com/nyoom-engineering/nyoom.nvim/blob/master/docs/modules.md), some of which may have additional dependencies. Run `:checkhealth` to check for what you may have missed.
 
 ## Install
+Remove any existing configuration files
+```bash
+rm -rf ~/.local/share/nvim 
+rm -rf ~/.config/nvim
+```
+Then you can install the configuration
 
 ```bash
 git clone --depth 1 https://github.com/nyoom-engineering/nyoom.nvim.git ~/.config/nvim 
